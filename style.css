@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.offer {
+	display: flex;
+	background-color: #F0EFEB;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer__child-wrapper {
+	display: inline-block;
+	width: 45%;
+}
+
+.offer__child-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 90px 165px;
+}
+
+.offer__title-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.offer__button {
+	width: 130px;
+	background: #000000;
+	border: 1px solid #000000;
+	border-radius: 100px;
+	color: white;
+}
